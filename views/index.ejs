@@ -1,0 +1,16 @@
+
+
+<%-include(`header`);%>
+
+
+<% if(params == "about") {%>
+<%-include(`template-parts-about`);%>
+
+<% }else if(params == "animals") {%>
+<%-include(`template-parts-animals`);%>
+
+<% }else if(params == "home") {%>
+<%-include(`template-parts-index`);%>
+
+<% } %>
+<%-include(`footer`);%>

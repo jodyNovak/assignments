@@ -1,0 +1,8 @@
+<h3>Animals</h3>
+<dl class="animals-container">
+    <%for(i = 0; i < animals.length; i++){%>
+        <dt><b>Animal:</b> <%-animals[i].name%></dt>
+            <dd><b>Description:</b> <%-animals[i].description%></dd>
+            <dd><b>Number Of Legs:</b> <%-animals[i].numberOfLegs%></dd>
+    <% } %>
+</dl>
